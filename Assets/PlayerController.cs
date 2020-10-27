@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private float moveInput; 
     
 
-    private bool isGrounded; 
+    public bool isGrounded; 
     public Transform feetPos; 
     public float checkRadius; 
     public LayerMask whatIsGround; 

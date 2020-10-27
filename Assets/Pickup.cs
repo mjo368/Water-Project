@@ -17,8 +17,12 @@ public class Pickup : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         
+
         if (other.CompareTag("Player")){ 
+            Debug.Log("Haaaaaaaas triggered");
             for (int i = 0; i < inventory.slots.Length; i++)
+
+    
             {
                 if (inventory.isFull[i] == false){ 
                         //item can be picked up 

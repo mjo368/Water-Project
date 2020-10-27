@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Grounded : MonoBehaviour
 {
-    GameObject Player; 
+    public GameObject Player; 
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,7 @@ public class Grounded : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     { 
         if (collision.collider.tag == "Ground"){ 
-            Player.GetComponent<Move2D>().isGrounded = true; 
+            Player.GetComponent<PlayerController>().isGrounded = true;
 
 
         }
@@ -33,7 +34,7 @@ public class Grounded : MonoBehaviour
  private void OnCollisionExit2D(Collision2D collision)
    { 
         if (collision.collider.tag == "Ground"){ 
-            Player.GetComponent<Move2D>().isGrounded = false; 
+            Player.GetComponent<PlayerController>().isGrounded = false; 
 
 
         }
