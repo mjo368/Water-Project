@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene 1.unity
+    guid: 80a769b8b04ed4f49939746ae53d2ea9
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/DreamSea2.unity
+    guid: 7132ef9989c122248b8a8e4b31deac47
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/DreamSea3.unity
+    guid: ecac02e827a3fee4da728b0e6844903e
+  - enabled: 1
+    path: Assets/Scenes/DreamSea1.unity
+    guid: cde78dc1ad0f2324b87930bd7e94f454
   m_configObjects: {}
